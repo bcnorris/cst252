@@ -1,0 +1,31 @@
+#box {
+    border: 2px dashed green; /* adds a dashed green border with a width of 2px */
+    background-color: pink; /* makes the background pink */
+    border-radius: 30px; /* makes the border rounded*/
+}
+
+#p1 {
+    position: relative; /* The position is relative*/
+    margin: 2% 20%; /* space between the object and the edge of the page */
+    width: 200px; /* The width of the paragraph is 200px*/
+    height: 100px; /*the height of the paragraph is 100px*/
+    border: 2px solid black; /* the border has a width of 2px, solid style, and color black*/
+    color: blue; /*font color is blue */
+    
+}
+
+p {
+    background-image: linear-gradient(rgb(60, 240, 228), yellow); /*background gradient */
+}
+h1 {
+    position: absolute;  /*heading scrolls with the page*/
+    font-weight: 200; /*different font weight */
+}
+
+img {
+    width: 200px; /*width of the image*/
+    height: auto; /*height is automatically proportional*/
+    position: relative; /*The image has a postition relative to its normal positition*/
+    left: 10px; /*The image is pushed 10px from the left edge*/
+    margin: 2% 40%; /*The image is set to have a top and bottom margin that is 2% of the page and a left/right margin of 40%*/ 
+}
