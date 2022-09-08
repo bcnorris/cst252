@@ -1,0 +1,28 @@
+body {
+    text-align: center;
+    background-color: #acc8e5;
+    color:#112a46;  
+    margin: 0% 25%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 150%;
+    
+}
+#image {
+    background-color: black;
+    margin: 0% 0%;
+}
+
+img {
+    height: 200px;
+    width: auto;
+    border: 2px solid #9d0404 ;
+ 
+}
+
+ul {
+  list-style:  none;
+}
+
+#pseudo {
+    color: #9d0404;
+}
