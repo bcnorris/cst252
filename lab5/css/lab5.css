@@ -1,0 +1,18 @@
+#solarSystem div {
+	position: relative;
+
+}
+
+body {
+	width: 800px;
+	height: 800px;
+	background-color: black;
+}
+
+#solarSystem {
+	width: 1px;
+	height: 1px;
+	position: absolute;
+	top: 50%;
+	left: 50%;	
+}
