@@ -1,0 +1,80 @@
+.header {
+	color: white;
+	background-color: #002A4E;
+	border-radius: 15px;
+	padding: 20px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.itembox {
+	border-radius: 20px;
+	border: thin solid grey;
+	width: 300px;
+	width: 70%;	
+	padding: 15px;
+	clear: both;
+	overflow: hidden;
+	margin-bottom: 15px;
+	cursor: pointer;
+
+}
+
+.itembox img {
+	height: 180px;
+	float:left;
+}
+
+.courseitemname {
+	font-size: 50px;
+	margin-left: 15px;	
+	line-height: 180px;
+}
+
+.title {
+	font-size: 36px;
+}
+
+.subtitle {
+	font-size: 18px;
+}
+
+.maincontentarea {
+	width: 100%;
+
+}
+
+.column {
+	float: left;
+}
+
+.column:first-of-type {
+	width: 60%;
+	margin-right: 15px;
+
+}
+
+.column:last-of-type {
+	width: 30%;
+}
+
+#infopanel {
+	border-radius: 20px;
+	box-shadow: 5px 5px #888882;
+	overflow: hidden;
+	padding: 15px;
+
+}
+
+.descriptionitem {
+	margin-top: 15px;
+}
+
+.descriptionlabel {
+	font-weight: bold;
+}
+
+#exitbutton {
+	cursor: pointer;
+	float:right;
+}
