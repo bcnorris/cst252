@@ -13,18 +13,17 @@ let button = document.querySelector(".itembox");
 // Making the event - add a border and change course description
 let buttonPress = () => {
     infopanel.style.display = "block";
-    let newBorder = document.querySelector(".itembox");
-    newBorder.style.border = "5px solid black";
+    button.style.border = "5px solid black";
     let courseInfo = document.querySelector(".descriptionitem")
-    courseInfo.innerHTML = "CST 252 Scripting for Multimedia";
+    courseInfo.textContent = "CST 252 Scripting for Multimedia";
     let courseDesc = document.querySelector("#courseDescription");
-    courseDesc.innerHTML = "Here is the description of the course";
-   
+    courseDesc.textContent = "Here is the description of the course";
+    
 };
 
 
 // Creating Event listener to trigger the event when course is clicked
-button.addEventListener("mouseover", buttonPress);
+button.addEventListener("click", buttonPress);
 
 
 //  Selecting elements to trigger the event
@@ -37,15 +36,20 @@ let exitClick = () => {
 }
 
 let out = () => {
-    newBorder.style.border = "0px";
+    button.style.border = "thin solid grey";
+}
+
+let inside = () => {
+    button.style.border = "5px solid black";
 }
 
 
 button.addEventListener("mouseout", out);
+button.addEventListener("mouseover", inside);
 
 
 // Creating event listener to trigger the event (click)
-exitButton.addEventListener("click", exitClick, out);
+exitButton.addEventListener("click", exitClick);
 
 
 

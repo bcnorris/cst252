@@ -63,7 +63,7 @@
 	box-shadow: 5px 5px #888882;
 	overflow: hidden;
 	padding: 15px;
-
+	display: none;
 }
 
 .descriptionitem {
