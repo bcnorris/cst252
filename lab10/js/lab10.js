@@ -17,7 +17,7 @@ let buttonPress = () => {
     let courseInfo = document.querySelector(".descriptionitem")
     courseInfo.textContent = "CST 252 Scripting for Multimedia";
     let courseDesc = document.querySelector("#courseDescription");
-    courseDesc.textContent = "Here is the description of the course";
+    courseDesc.textContent = "The class has a pretty simple format: Each day we'll have a lecture during which you'll follow along on your machine, followed by a lab about the lecture. The lab will give you working experience with the concepts we're covering. Scattered through the course we'll have quizzes and a midterm project. Near the end of term, you'll be working primarily on a final project with your team.";
     
 };
 
