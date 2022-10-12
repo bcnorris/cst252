@@ -55,10 +55,12 @@ let exitClick = () => {
     infopanel.style.display = "none";
 }
 
+//displays thin border when mouse goes "out" / away from button
 let out = () => {
     button.style.border = "thin solid grey";
 }
 
+//displays thin border when mouse goes "in" / towards button 
 let inside = () => {
     button.style.border = "5px solid black";
 }
