@@ -11,19 +11,10 @@ let turnYellow = (box) => {
 //Tell the function to run for all boxes
 boxes.forEach(turnYellow);
 
+//Set a function to style each box with a border when clicked. (i) is the parameter that targets an individual box 
 boxes.forEach(function (i) {
 i.addEventListener('click', function() {
     i.style.border = "5px solid black";
 })
 
 });
-//Make borders when the box is clicked
-// let buttonClick = (box) => {
-//     boxes.style.border = 
-//     console.log(boxes);
-// };
-
-// for (i of boxes) {
-//     i.addEventListener('click', buttonClick)
-// };
-// };
