@@ -1,0 +1,19 @@
+#container {
+	margin: 20px auto;
+	width: 100%;
+	text-align: center;
+	font-weight: bold;
+	font-size: 18px
+
+}
+
+#secretNumber {
+	margin: 0 auto;
+	color: 	white;
+	font-size: 	100px;
+	width: 120px;
+	border: thick solid black;
+	background-color: 	white;
+	text-align: center;
+}
+
