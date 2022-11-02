@@ -1,0 +1,27 @@
+body {
+    text-align: center;  /*centers items*/
+    font-family: sans-serif;/*text is sans-serif*/
+    font-size: 30px;/*text is 30px*/
+}
+
+.box {
+    border: 2px solid black; 
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    background-color: green;
+    color: white;
+    cursor: pointer; /*cursor becomes a pointer when hovering over the box*/
+    transition-property: background-color ; /*background Color will change*/
+    transition-duration: 1.5s; /*transitions will take 1.5 seconds*/
+    
+
+}
+
+.textHover {
+    margin-top: 60px; /*margin to separate content*/
+    cursor: pointer;
+    font-size:medium; /*default font size*/
+    transition-property: font-size; /*font size will change*/
+    transition-duration: 1.5s; /*changes will take 1.5 seconds*/
+}
