@@ -11,6 +11,7 @@ let boxColor = () => {
 //Change the background color back to green when it's orange
 // let boxReturn = () => {
 //     box.style.backgroundColor = "green";
+//     console.log(boxReturn);
 // }
 
 //Change box color when the box is clicked
