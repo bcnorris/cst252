@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="script.js"></script>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div id="board">
+		<div class="row">
+			<div class="square" data-row="0" data-column="0"></div>
+			<div class="square" data-row="0" data-column="1"></div>
+			<div class="square" data-row="0" data-column="2"></div>
+		</div>
+		<div class="row">
+			<div class="square" data-row="1" data-column="0"></div>
+			<div class="square" data-row="1" data-column="1"></div>
+			<div class="square" data-row="1" data-column="2"></div>
+	 	</div>
+		<div class="row">
+			<div class="square" data-row="2" data-column="0"></div>
+			<div class="square" data-row="2" data-column="1"></div>
+			<div class="square" data-row="2" data-column="2"></div>
+		</div>
+	</div>
+	<div class="pieceBox">
+		<div class="menuPiece pawn" data-piecetype="pawn" data-imageurl="images/pawn.png"></div>
+		<div class="menuPiece knight" data-piecetype="knight" data-imageurL="images/knight.png"></div>
+		<div class="menuPiece rook" data-piecetype="queen" data-imageurl="images/rook.png"></div>		
+	</div>
+	<div class="printOut">
+		<button id="printButton">Print!</button>
+		<div class="message"></div>
+	</div>
+</body>
+</html>

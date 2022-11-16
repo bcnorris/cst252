@@ -1,42 +1,79 @@
-body {
-    background: white;
+html, body {
+  height: 100%;
+  width: 100%;
+}
+.tableRow {
+background-color: transparent;
+}
+
+.newCard {
+  width: 250px;
+  height: 340px;
+  margin-top: 5%;
+  margin-left: 5%;
+} 
+
+.background {
+  width: 280px;
+  height: 350px;
+  margin-top: 5%;
+  margin-left: 5%;
+  background-color: orange;
+}
+
+#squareB {
+color: red;
+font-size: 40px;
+}
+#squareI {
+color: blue;
+font-size: 40px;
+}
+#squareN {
+color: purple;
+font-size:40px;
+}
+#squareG {
+color: green;
+font-size:40px;
+}
+#squareO {
+color: yellow;
+font-size:40px;
+}
+
+.numRow{
+  cursor: pointer;
+  width: 250px;
+  background-color: white;
+}
+
+td {
   
-    margin: 3%;
-    height: 100vh;
-    color: black;
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
-  }
+  width: 50px;
+  height: 50px;
+  text-align: center;
 
-  .tableRow {
-    background-color: #bd8ac7;
-  }
+}
 
- 
-  .newCard {
-      width: 250px;
-      height: 340px;
-      margin-top: 5%;
-      margin-left: 5%;
-  } 
+#square12 {
+background-color: red;
+cursor: auto;
+color: white;
+}
 
-  .numRow{
-      cursor: pointer;
-      width: 250px;
-      background-color: #7c99ee;
-  }
+.nextButton{
+background-color: red;
+border: none;
+border-radius: 20px;
+color: white;
+padding: 10px 15px;
+text-align: center;
+font-size: 16px;
+}
 
-  td {
-      border: 2px solid black;
-      width: 50px;
-      height: 50px;
-      text-align: center;
-   
-  }
-
-  #square12 {
-    background-color: green;
-    cursor: auto;
-    color: white;
-  }
+.markedSquare {
+background-color: purple;
+cursor: auto;
+color: white;
+}
