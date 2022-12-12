@@ -1,0 +1,52 @@
+.message {
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.red {
+	background-color: pink;
+}
+
+
+.blue {
+	background-color: lightblue;
+}
+
+.selected {
+	border: thick solid black;
+}
+
+
+#board, .bugBox, .row {
+	overflow: hidden;
+}
+
+
+#board, .bugBox, .printOut {
+	float: left;
+}
+
+#board {
+	width: 310px;
+	height: 310px;
+}
+
+.square {
+	border: thin solid black;
+	float: left;
+	width: 100px;
+	height: 100px;
+}
+
+.menubug {
+	width: 100px;
+	height: 100px;
+}
+
+.redBug {
+	background-image: url('images/redbug.png');
+}
+
+.blueBug {
+	background-image: url('images/bluebug.png');
+}

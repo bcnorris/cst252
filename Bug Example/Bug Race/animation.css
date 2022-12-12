@@ -1,0 +1,43 @@
+body {
+	margin: auto;
+}
+
+#winnerText {
+	width: 200px;
+	height: 100px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+.finishLine {
+	width: 200px;
+	height: 50px;
+	background-image: url('images/finishline.png');
+
+}
+
+.lane {
+	width: 100px;
+	height: 500px;
+	position: relative;
+	float: left;
+	border: thin solid grey;
+}
+
+.bugFriend {
+	position: absolute;
+	bottom:0px;
+	left: 0px;
+	cursor: pointer;
+	width: 100px;
+	height: 100px;
+}
+
+.redBug {
+	background-image: url('images/redbug.png');
+}
+
+.blueBug {
+	background-image: url('images/bluebug.png');
+}

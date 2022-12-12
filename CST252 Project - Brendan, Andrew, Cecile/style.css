@@ -1,6 +1,7 @@
 html, body {
   height: 100%;
   width: 100%;
+  background-color: black;
 }
 .tableRow {
 background-color: transparent;
@@ -11,6 +12,7 @@ background-color: transparent;
   height: 340px;
   margin-top: 5%;
   margin-left: 5%;
+ 
 } 
 
 .background {
@@ -19,33 +21,40 @@ background-color: transparent;
   margin-top: 5%;
   margin-left: 5%;
   background-color: orange;
+
 }
 
 #squareB {
 color: red;
 font-size: 40px;
+font-family: "Impact", fantasy;
 }
 #squareI {
 color: blue;
 font-size: 40px;
+font-family: "Impact", fantasy;
 }
 #squareN {
 color: purple;
 font-size:40px;
+font-family: "Impact", fantasy;
 }
 #squareG {
 color: green;
 font-size:40px;
+font-family: "Impact", fantasy;
 }
 #squareO {
 color: yellow;
 font-size:40px;
+font-family: "Impact", fantasy;
 }
 
 .numRow{
   cursor: pointer;
   width: 250px;
   background-color: white;
+  font-family: "American Typewriter", serif;
 }
 
 td {
@@ -53,6 +62,7 @@ td {
   width: 50px;
   height: 50px;
   text-align: center;
+ 
 
 }
 
@@ -60,20 +70,94 @@ td {
 background-color: red;
 cursor: auto;
 color: white;
+font-family: "Verdana", sans-serif;
 }
 
 .nextButton{
-background-color: red;
+background-color: blue;
 border: none;
 border-radius: 20px;
 color: white;
 padding: 10px 15px;
 text-align: center;
 font-size: 16px;
+font-family: "Verdana", sans-serif;
+display: inline;
+}
+
+.nextNumber{
+display: none;
+background-color: blue;
+border-radius: 20px;
+color: white;
+padding: 10px 15px;
+text-align: center;
+font-size: 26px;
+font-family: "Verdana", serif;
+}
+.newGame{
+background-color: green;
+border: none;
+border-radius: 20px;
+color: white;
+padding: 10px 15px;
+text-align: center;
+font-size: 16px;
+font-family: "Verdana", sans-serif;
+display: inline;
+}
+a {
+text-decoration: none;
+}
+.newGame:hover {
+  background-color: darkgreen;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.nextButton:hover {
+  background-color: darkblue;
+  transition: 0.2s;
+  cursor: pointer;
 }
 
 .markedSquare {
 background-color: purple;
-cursor: auto;
+cursor: pointer;
 color: white;
+}
+.square:hover {
+  background-color: #d8cade;
+  transition: 0.2s;
+}
+
+.bingoButton {
+margin: 5% 13%;
+background-color: red;
+border: none;
+border-radius: 50px;
+color: white;
+padding: 15px 15px;
+text-align: center;
+font-size: 16px;
+font-family: "Verdana", sans-serif;
+}
+
+.bingoButton:hover {
+  background-color: darkred;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+#SFX {
+  display: hidden;
+}
+
+.winGIF {
+  display: none;
+}
+
+.replacedBackgroundImage{
+  background-image: url('images/Bingo-GIF.gif');
+  background-size: cover;
 }
